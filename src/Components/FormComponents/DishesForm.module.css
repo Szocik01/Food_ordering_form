@@ -1,0 +1,77 @@
+.form
+{
+    color: rgb(133, 95, 0);
+    background-color: white;
+    border-radius: 20px;
+    border: rgb(145, 145, 145) solid 1px;
+    padding: 1.5rem 1rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:0.5rem;
+    -webkit-box-shadow: 4px 4px 25px -7px rgb(218, 218, 218);
+    -moz-box-shadow: 4px 4px 25px -7px rgb(218, 218, 218);
+    box-shadow: 4px 4px 25px -7px rgb(218, 218, 218);
+}
+
+.header
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.submitButton
+{
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgb(159, 159, 159);
+    background-color: rgb(241, 241, 241);
+    transition: all 60ms linear;
+    font-weight: 700;
+}
+
+.submitButton:active
+{
+    transform: scale(0.97);
+    background-color: rgb(234, 234, 234);
+}
+
+.httpInfo
+{
+    margin-top: 0.5rem;
+}
+
+.input
+{
+    height: 1.8rem;
+    border-radius: 4px;
+    padding: 0 0.2rem;
+    border: rgb(181, 181, 181) solid 1px;
+}
+
+.input:focus-visible
+{
+    border: rgb(0, 7, 83) solid 2px;
+    outline: none;
+}
+
+.error
+{
+    border: rgb(179, 0, 0) solid 2px;
+}
+
+@media screen and (min-width:769px)
+{
+    .header
+    {
+        font-size: 1.7rem;
+    }
+
+    .form
+    {
+        width: 25rem;
+    }
+}

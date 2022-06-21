@@ -1,0 +1,24 @@
+.inputContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 12rem;
+    padding: 0 0.2rem;
+}
+
+.error
+{
+    color: rgb(146, 26, 26);
+    font-weight: 700;
+    font-size: 0.8rem;
+    height: 1rem;
+}
+
+@media screen and (min-width:769px)
+{
+    .inputContainer
+    {
+        width: 16rem;
+    }
+}
