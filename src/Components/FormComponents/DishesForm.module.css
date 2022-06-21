@@ -25,10 +25,11 @@
 
 .submitButton
 {
+    color:  white;
+    background-color: rgb(108, 77, 0);
+    border: none;
     padding: 0.5rem 1.5rem;
     border-radius: 8px;
-    border: 1px solid rgb(159, 159, 159);
-    background-color: rgb(241, 241, 241);
     transition: all 60ms linear;
     font-weight: 700;
 }
@@ -36,7 +37,7 @@
 .submitButton:active
 {
     transform: scale(0.97);
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(91, 65, 0);
 }
 
 .httpInfo

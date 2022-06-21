@@ -77,6 +77,8 @@ let DishesForm = ({ handleSubmit, submitting }) => {
     }
   }, [formData.values]);
 
+  const optionsTable=[{name:"Pizza", value:"pizza"},{name:"Soup", value:"soup"},{name:"Sandwich", value:"sandwich"}];
+
   const onSubmitHandler = async () => {
     setHttpInfo("");
 
@@ -144,15 +146,9 @@ let DishesForm = ({ handleSubmit, submitting }) => {
         label="Dish Type"
         renderInput={selectInput}
         component={SingleInput}>
-        <option value="pizza">
-          Pizza
-        </option>
-        <option value="soup">
-            Soup
-        </option>
-        <option value="sandwich">
-            Sandwich
-        </option>
+          {optionsTable.map((item,index)=>{
+            return <option value={item.value} key={index}>{item.name}</option>
+          })}
       </Field>
       {selectedDish === "pizza" ? (
         <Field
