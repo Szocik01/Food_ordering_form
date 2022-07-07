@@ -1,9 +1,10 @@
-<h1>Food Form</h1>
+<h1>Food Ordering Form</h1>
 
-npm version: 7.19.1
-node version: v16.6.0
+<h2>Description</h2>
+<p>Project is a simple food ordering form, that was created for recruitment process. After recruitment I added it to github as a simple example of me using REST API to connect to server and send data there. App also handles all errors that may occur, which are server errors and invalid input data errors, and gives information if they appear.</p>
+<h2>Technological stack</h2>
+<p>Javascript, React, REST API, Redux Toolkit, Redux-form, CSS modules</p>
+<h2>Link to application</h2>
+<a href="https://zadanie-hexocean.web.app/">https://zadanie-hexocean.web.app/</a>
 
-To set up the project you have to download source files from github, by clicking code and then download zip, or from mail that I have send. Then go to "zadanie_rekrutacyjne" folder. As the last step write in comand line "npm install", and after that, "npm start".
-Also it is able to see live preview of project on: <a href="https://zadanie-hexocean.web.app/">https://zadanie-hexocean.web.app/</a>
 
-Time needed to complete the task was between 7 and 8 hours of work. Mostly because it was my first contact with Redux Form so I needed to get used to it. 
